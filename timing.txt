@@ -1,0 +1,27 @@
+autograd, 146.23
+jax-cpu w/o jit, 23.68
+jax-cpu w/ jit, 10.73
+pytorch-cpu matmul, 15.73
+tensorflow-cpu matmul, 56.4
+jax-gpu w/o jit, 24.81
+jax-gpu w/ jit, 10.77
+pytorch-gpu matmul, n/a
+pytorch-gpu Linear, 6.81
+tensorflow-gpu matmul, 49.25
+tensorflow-gpu Dense, 17.89
+
+
+# batch size 4096
+autograd, 
+jax-cpu w/o jit, 41.24
+jax-cpu w/ jit, 31.77
+pytorch-cpu matmul, 45.44
+tensorflow-cpu matmul, 122.34
+jax-gpu w/o jit, 29.51
+jax-gpu w/ jit, 15.92
+pytorch-gpu matmul, n/a
+pytorch-gpu Linear, 6.79
+tensorflow-gpu matmul, 50.30 
+tensorflow-gpu Dense, 22.84
+
+pytorch-gpu-1024 Linear, 9.99 

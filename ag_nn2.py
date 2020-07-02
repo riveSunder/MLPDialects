@@ -47,3 +47,4 @@ if __name__ == "__main__":
 
     print("loop time (autograd): {:.2f} s".format(t00-t0))
 
+    

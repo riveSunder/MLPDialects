@@ -1,7 +1,6 @@
 from jax import numpy as jnp
 import numpy as np
-from jax import grad, jit, pmap 
-import sklearn.datasets as datasets
+from jax import grad, jit 
 import time
 
 sigmoid = lambda x: 1 / (1+jnp.exp(-x))
